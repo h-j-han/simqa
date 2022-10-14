@@ -2,4 +2,4 @@
 
 
 
-Crosslingual Quizbowl Dataset, XQB
+Our Crosslingual Quizbowl Dataset, XQB dataset will be available soon.
