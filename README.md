@@ -1,5 +1,5 @@
 # SimQA: Detecting Simultaneous MT Errors through Word-by-Word Question Answering
-This repository contains our Crosslingual Quizbowl Dataset, XQB dataset for the EMNLP 2022 paper that can be found [here](http://users.umiacs.umd.edu/~jbg/docs/2022_emnlp_simqa.pdf)!
+This repository contains our Crosslingual Quizbowl Dataset, XQB dataset for the EMNLP 2022 paper that can be found [here](https://aclanthology.org/2022.emnlp-main.378/)!
 
 ## Data Statistics
 | Language | # Question | # Sentences |
@@ -28,13 +28,19 @@ This repository contains our Crosslingual Quizbowl Dataset, XQB dataset for the 
 ## Reference
 If you use any contents of this repository, please cite us. 
 ```
-@inproceedings{Han:Carpuat:Boyd-Graber-2022,
-Title = {SimQA: Detecting Simultaneous MT Errors through Word-by-Word Question Answering},
-Author = {HyoJung Han and Marine Carpuat and Jordan Boyd-Graber},
-Booktitle = {Empirical Methods in Natural Language Processing},
-Year = {2022},
-Location = {Abu Dhabi},
-Url = {http://umiacs.umd.edu/~jbg//docs/2022_emnlp_simqa.pdf},
+@inproceedings{han-etal-2022-simqa,
+    title = "{S}im{QA}: Detecting Simultaneous {MT} Errors through Word-by-Word Question Answering",
+    author = "Han, HyoJung  and
+      Carpuat, Marine  and
+      Boyd-Graber, Jordan",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.378",
+    pages = "5598--5616",
+    abstract = "Detractors of neural machine translation admit that while its translations are fluent, it sometimes gets key facts wrong. This is particularly important in simultaneous interpretation where translations have to be provided as fast as possible: before a sentence is complete. Yet, evaluations of simultaneous machine translation (SimulMT) fail to capture if systems correctly translate the most salient elements of a question: people, places, and dates. To address this problem, we introduce a downstream word-by-word question answering evaluation task (SimQA): given a source language question, translate the question word by word into the target language, and answer as soon as possible. SimQA jointly measures whether the SimulMT models translate the question quickly and accurately, and can reveal shortcomings in existing neural systems{---}hallucinating or omitting facts.",
 }
 ```
 ## Contact
